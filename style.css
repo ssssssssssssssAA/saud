@@ -1,0 +1,184 @@
+h1{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #b71234;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-right: 20px;
+}
+
+.main-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.main-nav ul li a:hover {
+    color: #f5a623;
+}
+
+
+.sk li {
+    display: inline; /* or display: inline-block; */
+    margin-right: 10px; /* Add some spacing between items if needed */
+    text-align: center;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.sk a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.sk li:hover {
+    color: #b71234; /* Change color on hover */
+}
+
+/* Add a hover effect to the anchor tag as well */
+.sk li:hover a {
+    color: #b71234;
+}
+body{
+    text-align: center;
+    background-color: #000000;
+    overflow-x: hidden ;
+}
+.pic1{
+    text-align: left;
+    margin-top: -52px;
+}
+pop{
+    text-align: right;
+    display: inline;
+}
+.pic2{
+    text-align: right;
+    margin-top: -52px;
+    transition: transform 0.3s ease;
+}
+.pic2 img:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+
+
+ .email-section {
+    background-color: #b71234;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.email-section h2 {
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-section {
+    text-align: center;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #b71234;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #8e0f2b;
+    display: block;
+}
+
+
+input[type="email"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex-basis: 33%;
+    padding: 0 0px;
+    text-align: left;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    margin-bottom: 20px;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+.product p{
+    display: inline;
+ 
+    
+    color: white;
+    margin-right: 270px;
+}
+.product a{
+    text-decoration:none;
+    color: white;
+    text-align: center;
+   
+    
+
+}
+.pic5{
+    display: inline;
+    margin-right:4px ;
+    transition: transform 0.3s ease;
+}
+.pic5 img:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
